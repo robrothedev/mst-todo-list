@@ -1,0 +1,71 @@
+body {
+  font-size: 18px;
+  font-family: "HelveticaNeue-Light";
+  padding: 20px;
+  margin: 0;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+ul li {
+  padding: 20px;
+  padding-left: 0;
+  width: 100%;
+  border-bottom: 1px solid #ddd;
+  position: relative;
+}
+
+input[type="text"] {
+  box-sizing: border-box;
+  width: 100%;
+  font-size: inherit;
+  padding: 12px;
+  margin-bottom: 20px;
+}
+
+input[type="checkbox"] {
+  position: absolute;
+  left: 4px;
+}
+
+.todo-item-name {
+  margin-left: 32px;
+  transition: opacity 0.2s;
+}
+
+.todo-item-name:hover {
+  cursor: pointer;
+  opacity: 0.6;
+}
+
+.btnRemove {
+  opacity: 0.5;
+  cursor: pointer;
+  font-size: 32px;
+  color: red;
+  position: absolute;
+  right: 24px;
+  top: 8px;
+  transition: opacity 0.2s;
+}
+
+.btnRemove:hover {
+  opacity: 1;
+}
+
+.done-item-list {
+  margin-top: 20px;
+  padding: 12px;
+  border: 1px solid silver;
+  background: #efefef;
+}
+
+.done-item-list li {
+  box-sizing: border-box;
+  color: #999;
+  text-decoration: line-through;
+}
